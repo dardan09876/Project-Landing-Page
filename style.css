@@ -39,6 +39,7 @@ body {
 /* images */
 img {
   width: 200px;
+  padding: 20px;
 }
 .amp {
     height: 300px;
