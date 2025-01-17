@@ -1,29 +1,162 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Header Styles */
-  .header {
-    font-size: 24px;
-    color: #F9FAF8;
-    background-color: #1F2937;
-    padding: 20px;
-  }
-  
-  .links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .links a {
-    text-decoration: none;
-    color: #3882F6;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+  font-size: 24px;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 20px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  width: 100%;
+  background-color: #1F2937;
+  z-index: 1000;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* images */
+img {
+  width: 200px;
+}
+.amp {
+    height: 300px;
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    left: 300px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #1F2937;
+  color: #f9faf8;
+  padding: 50px 20px;
+  display: flex;
+  align-items: row;
+}
+
+.hero .main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero .second {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 10px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Section 1 */
+.section-1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px;
+}
+
+.section-1 .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.section-1 .item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.section-1 .item .text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #1f2937;
+}
+
+/* Section 2 */
+.section-2 {
+  background-color: #e5e7eb;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section-2 .quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.section-2 .author {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+/* Section 3 */
+.section-3 {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section-3 h2 {
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.section-3 p {
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.section-3 button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px;
+}
